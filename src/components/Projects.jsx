@@ -16,14 +16,12 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Projects() {
   return (
-    <div className='flex flex-col md:flex-row justify-between md:px-[10%] lg:px-[20%] px-[5%] text-white'>
+    <div className='flex flex-col md:flex-row justify-between md:px-[10%] lg:px-[20%] px-[5%] text-white mt-5'>
       <div>
         <div className='text-3xl font-bold mb-4'>Portfolio</div>
         <hr className='border-[#03FD9F] mb-4' />
 
-        {/* Projects Grid */}
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
-          {/* Weather App Card */}
           <div className='bg-[#3c3c3c] p-4 rounded-lg shadow-lg'>
             <div className='flex justify-center w-full'>
               <div className='w-full rounded-t-lg overflow-hidden shadow-xl'>
@@ -55,7 +53,6 @@ export default function Projects() {
                   </span>
                 </div>
               </div>
-              {/* GitHub Button */}
               <div className='mt-4'>
                 <a href="https://github.com/saielnaik/weather-app" target="_blank" rel="noopener noreferrer">
                   <button className='bg-[#03FD9F] text-black py-2 px-4 rounded-lg hover:bg-[#00D67D] transition duration-300 flex justify-evenly items-center'>
@@ -66,8 +63,7 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* AI Trip Planner Card */}
-          <div className='bg-[#3c3c3c] p-4 rounded-lg shadow-lg'>
+         <div className='bg-[#3c3c3c] p-4 rounded-lg shadow-lg'>
             <div className='flex justify-center w-full'>
               <div className='w-full rounded-t-lg overflow-hidden'>
                 <img src={TP} alt="AI Trip Planner" className='w-full h-full object-cover shadow-xl' />
@@ -104,7 +100,6 @@ export default function Projects() {
                   </span>
                 </div>
               </div>
-              {/* GitHub Button */}
               <div className='mt-4 flex'>
                 <a href="https://github.com/saielnaik/ai-trip-planner" target="_blank" rel="noopener noreferrer">
                   <button className='bg-[#03FD9F] text-black py-2 px-4 rounded-lg hover:bg-[#00D67D] transition duration-300 flex justify-evenly items-center'>
@@ -115,7 +110,6 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* Expense Tracker Card */}
           <div className='bg-[#3c3c3c] p-4 rounded-lg shadow-lg'>
             <div className='flex justify-center w-full'>
               <div className='w-full rounded-t-lg overflow-hidden'>
@@ -153,7 +147,6 @@ export default function Projects() {
                   </span>
                 </div>
               </div>
-              {/* GitHub Button */}
               <div className='mt-4'>
                 <a href="https://github.com/saielnaik/expense-tracker" target="_blank" rel="noopener noreferrer">
                   <button className='bg-[#03FD9F] text-black py-2 px-4 rounded-lg hover:bg-[#00D67D] transition duration-300 flex justify-evenly items-center'>
@@ -164,8 +157,8 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className='mt-4 flex justify-center'>
-                <a href="https://github.com/saielnaik/expense-tracker" target="_blank" rel="noopener noreferrer">
+        <div className='mt-5 flex justify-center'>
+                <a href="https://github.com/saielnaik" target="_blank" rel="noopener noreferrer">
                   <button className='bg-[#03FD9F] text-black py-2 px-4 rounded-lg hover:bg-[#00D67D] transition duration-300 flex justify-evenly items-center'>
                     <FaGithub className='mr-2' /> View More Projects On GitHub
                   </button>
