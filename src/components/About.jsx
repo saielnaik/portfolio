@@ -28,7 +28,7 @@ export default function About() {
                     Collaboration and teamwork drive my work ethic, and <span className='text-[#03FD9F] font-bold'>I enjoy exploring new technologies and contributing to open-source projects.</span> I'm eager to tackle new challenges and bring innovative ideas to life.
                 </div>
                 <div className='flex justify-center font-bold'>
-                    Feel free to connect with me! 💚
+                    Feel free to connect with me! <span class="text-green-500 animate-pulse">💚</span>
                 </div>
             </div>
             <div className='text-3xl font-bold mt-8 mb-4'>Skills</div>
@@ -143,7 +143,7 @@ export default function About() {
                         </div>
                         <div class="mt-3 sm:pe-8">
                             <h3 class="text-lg font-semibold = text-white">B.E. Computer Engineering</h3>
-                            <time class="block mb-2 text-sm font-normal leading-none  text-gray-500">2024</time>
+                            <time class="block mb-2 text-sm font-normal leading-none  text-[#03FD9F]">2024</time>
                             <p class="text-base font-normal  text-gray-400">Padre Conceicao College Of Engineering</p>
                         </div>
                     </li>

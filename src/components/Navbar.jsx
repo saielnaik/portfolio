@@ -22,7 +22,6 @@ export default function Navbar() {
         <p className='text-[#03FD9F]'>.</p>
       </div>
 
-      {/* Desktop Links - Visible on medium screens and above */}
       <div className="hidden md:flex space-x-8">
         {Object.values(nav).map(({ label, id }, index) => (
           <a
@@ -41,12 +40,10 @@ export default function Navbar() {
         </a>
       </div>
 
-      {/* Mobile Menu Icon */}
       <div className="md:hidden cursor-pointer" onClick={toggleNavbar}>
         {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
       </div>
 
-      {/* Mobile Menu - Hidden on larger screens */}
       <div className={`fixed top-0 left-0 w-3/4 h-full bg-[#202020] shadow-lg transform transition-transform duration-300 ease-in-out z-50 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className='flex flex-col items-center mt-20'>
           {Object.values(nav).map(({ label, id }, index) => (

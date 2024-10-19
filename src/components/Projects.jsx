@@ -1,6 +1,6 @@
 import React from 'react';
 import TP from '../tripplanner.png';
-import watherapp from '../watherapp.png';
+import chat from '../chat.png';
 import ET from '../ET.png';
 import { SiVite } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -12,6 +12,11 @@ import { RiNextjsFill } from "react-icons/ri";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiClerk } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiSocketdotio } from "react-icons/si";
+
+
 
 
 export default function Projects() {
@@ -22,47 +27,6 @@ export default function Projects() {
         <hr className='border-[#03FD9F] mb-4' />
 
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
-          <div className='bg-[#3c3c3c] p-4 rounded-lg shadow-lg'>
-            <div className='flex justify-center w-full'>
-              <div className='w-full rounded-t-lg overflow-hidden shadow-xl'>
-                <img src={watherapp} alt="Weather App" className='w-full h-full object-cover' />
-              </div>
-            </div>
-            <div className='p-4 text-white'>
-              <h3 className='text-xl font-bold mb-2'>Weather App</h3>
-              <p className='text-sm mb-4'>
-                Delivered a seamless user experience by integrating real-time weather data with responsive design, enhancing app functionality and visual appeal.
-              </p>
-              <div className='flex justify-start items-center space-x-3'>
-                <div className='relative group'>
-                  <RiTailwindCssFill className='text-2xl text-[#06B6D4]' />
-                  <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs rounded-lg px-2 py-1 transition-opacity duration-300'>
-                    Tailwind CSS
-                  </span>
-                </div>
-                <div className='relative group'>
-                  <FaReact className='text-2xl text-[#61DBFB]' />
-                  <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs rounded-lg px-2 py-1 transition-opacity duration-300'>
-                    React Js
-                  </span>
-                </div>
-                <div className='relative group'>
-                  <SiAxios className='text-2xl text-[#bdbdbd]' />
-                  <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs rounded-lg px-2 py-1 transition-opacity duration-300'>
-                    Axios
-                  </span>
-                </div>
-              </div>
-              <div className='mt-4'>
-                <a href="https://github.com/saielnaik/weather-app" target="_blank" rel="noopener noreferrer">
-                  <button className='bg-[#03FD9F] text-black py-2 px-4 rounded-lg hover:bg-[#00D67D] transition duration-300 flex justify-evenly items-center'>
-                    <FaGithub className='mr-2' />View GitHub 
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
          <div className='bg-[#3c3c3c] p-4 rounded-lg shadow-lg'>
             <div className='flex justify-center w-full'>
               <div className='w-full rounded-t-lg overflow-hidden'>
@@ -151,6 +115,65 @@ export default function Projects() {
                 <a href="https://github.com/saielnaik/expense-tracker" target="_blank" rel="noopener noreferrer">
                   <button className='bg-[#03FD9F] text-black py-2 px-4 rounded-lg hover:bg-[#00D67D] transition duration-300 flex justify-evenly items-center'>
                     <FaGithub className='mr-2' /> View GitHub
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className='bg-[#3c3c3c] p-4 rounded-lg shadow-lg'>
+            <div className='flex justify-center w-full'>
+              <div className='w-full rounded-t-lg overflow-hidden shadow-xl'>
+                <img src={chat} alt="Weather App" className='w-full h-full object-cover' />
+              </div>
+            </div>
+            <div className='p-4 text-white'>
+              <h3 className='text-xl font-bold mb-2'>Real-time Chat Application</h3>
+              <p className='text-sm mb-4'>
+                Delivered a responsive and efficient chat experience with real-time messaging functionality, improving user
+                engagement and communication.
+                </p>
+              <div className='flex justify-start items-center space-x-3'>
+                <div className='relative group'>
+                  <RiTailwindCssFill className='text-2xl text-[#06B6D4]' />
+                  <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs rounded-lg px-2 py-1 transition-opacity duration-300'>
+                    Tailwind CSS
+                  </span>
+                </div>
+                <div className='relative group'>
+                  <FaReact className='text-2xl text-[#61DBFB]' />
+                  <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs rounded-lg px-2 py-1 transition-opacity duration-300'>
+                    React Js
+                  </span>
+                </div>
+                <div className='relative group'>
+                  <SiAxios className='text-2xl text-[#bdbdbd]' />
+                  <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs rounded-lg px-2 py-1 transition-opacity duration-300'>
+                    Axios
+                  </span>
+                </div>
+                <div className='relative group'>
+                  <SiMongodb className='text-2xl text-[#4DB33D]'/>
+                  <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs rounded-lg px-2 py-1 transition-opacity duration-300'>
+                    MongoDB
+                  </span>
+                </div>
+                <div className='relative group'>
+                  <FaNodeJs className='text-2xl text-[#68a063]'/>
+                  <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs rounded-lg px-2 py-1 transition-opacity duration-300'>
+                    Node.Js
+                  </span>
+                </div>
+                <div className='relative group'>
+                  <SiSocketdotio className='text-2xl text-[#bdbdbd]'/>
+                  <span className='absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 opacity-0 group-hover:opacity-100 bg-black text-white text-xs rounded-lg px-2 py-1 transition-opacity duration-300'>
+                    Socket
+                  </span>
+                </div>
+              </div>
+              <div className='mt-4'>
+                <a href="https://github.com/saielnaik/chat-app" target="_blank" rel="noopener noreferrer">
+                  <button className='bg-[#03FD9F] text-black py-2 px-4 rounded-lg hover:bg-[#00D67D] transition duration-300 flex justify-evenly items-center'>
+                    <FaGithub className='mr-2' />View GitHub 
                   </button>
                 </a>
               </div>
