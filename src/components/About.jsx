@@ -16,7 +16,7 @@ import { VscVscode } from "react-icons/vsc";
 
 export default function About() {
   return (
-    <div className='flex flex-col md:flex-row justify-between md:px-[10%] lg:px-[20%] px-[5%] text-white'>
+    <div className='flex flex-col md:flex-row justify-between mt-5 md:px-[10%] lg:px-[20%] px-[5%] text-white'>
         <div>
             <div className='text-3xl font-bold mb-4'>About</div>
             <hr className='border-[#03FD9F] mb-4' />
@@ -25,7 +25,7 @@ export default function About() {
                     Hello! I'm Saiel Naik, a passionate software developer with a <span className='text-[#03FD9F] font-bold'>B.E. in Computer Engineering</span>. I specialize in creating dynamic web applications using <span className='text-[#03FD9F] font-bold'>React, Next.js, and Vite</span>, focusing on elegant digital experiences.
                 </div>
                 <div className='mb-5'>
-                    Collaboration and teamwork drive my work ethic, and <span className='text-[#03FD9F] font-bold'>I enjoy exploring new technologies and contributing to open-source projects.</span> I'm eager to tackle new challenges and bring innovative ideas to life.
+                    Collaboration and teamwork drive my work ethic, and <span className='text-[#03FD9F] font-bold'>I enjoy exploring new technologies and building personal projects to sharpen my skills.</span> I'm eager to tackle new challenges and bring innovative ideas to life.
                 </div>
                 <div className='flex justify-center font-bold'>
                     Feel free to connect with me! <span class="text-green-500 animate-pulse">💚</span>
@@ -99,7 +99,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className='text-3xl font-bold mt-8 mb-4'>Education</div>
+            <div className='text-3xl font-bold mt-[25%] lg:mt-[10%] mb-4'>Education</div>
             <div className=''>   
                 <ol class="items-center sm:flex">
                     <li class="relative mb-6 sm:mb-0">
