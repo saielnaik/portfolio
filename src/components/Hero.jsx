@@ -23,7 +23,7 @@ export default function Hero() {
             I excel in problem-solving and teamwork and
           </div>
           <div className='text-center lg:text-left'>
-            I specialize in React and Next.js.
+            I specialize in Full-stack development.
           </div>
 
           <div className='flex flex-col items-center lg:flex-row lg:items-start lg:justify-start mt-5'>
