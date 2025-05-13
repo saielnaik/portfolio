@@ -28,7 +28,7 @@ export default function Hero() {
 
           <div className='flex flex-col items-center lg:flex-row lg:items-start lg:justify-start mt-5'>
             <a
-              href="https://drive.google.com/file/d/1RlPlhAg4D6EJ9ksQcfo-F-Mq0R0XsySp/view?usp=sharing"
+              href="https://drive.google.com/file/d/11XBEdh95faKHhx3U__nr2NqdhaQoXoMm/view?usp=sharing"
               
               target="_blank"
               rel="noopener noreferrer"
